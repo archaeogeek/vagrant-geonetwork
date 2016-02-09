@@ -24,7 +24,7 @@ Cookbooks used:
 Make sure VirtualBox and Vagrant have installed correctly then clone this repository.
 
 ```bash
-$ git clone https://github.com/lushc/vagrant-geonetwork geonetwork-vm
+$ git clone https://github.com/<thisreponame>/vagrant-geonetwork geonetwork-vm
 $ cd geonetwork-vm
 ```
 
@@ -40,7 +40,7 @@ $ git remote add upstream https://github.com/geonetwork/core-geonetwork
 $ git submodule update --init --recursive
 ```
 
-Next install the Librarian-Chef plugin and boot up the VM.
+Next install the Librarian-Chef plugin and boot up the VM, then provision it and ssh on.
 
 ```bash
 $ cd ../../vagrant
