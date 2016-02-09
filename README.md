@@ -46,6 +46,7 @@ Next install the Librarian-Chef plugin and boot up the VM.
 $ cd ../../vagrant
 $ vagrant plugin install vagrant-librarian-chef
 $ vagrant up
+$ vagrant provision
 $ vagrant ssh
 ```
 
